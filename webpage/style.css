@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.main{
+
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size:cover;
+    height: 200vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 78px;
+
+}
+
+.logo{
+    color: rgb(240, 112, 7);
+    font-size: 25px;
+    font-family:Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10;
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(207, 224, 79);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: rgb(165, 91, 6);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid rgb(243, 167, 26);
+    margin-top: 12px;
+    color: rgb(1, 14, 43);
+    border-right: none;
+    font-size: 15px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow: black;
+
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    background: rgb(229, 228, 129);
+    border: 1px none;
+    margin-top: 12px;
+    color: rgb(17, 173, 173);
+    font-size: 14px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+
+.btn:focus{
+    outline: black;
+
+}
+
+.srch:focus{
+    outline: black;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(89, 42, 1);
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+
+
+}
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 10px;
+    margin-top: 7%;
+    letter-spacing: 2px;
+
+
+
+}
+.content .cn{
+    width: 120px;
+    height:  28px;
+    background: rgb(225, 252, 165);
+    border: rgb(0, 0, 0);
+    margin-bottom: 12px;
+    margin-left: 20px;
+    font-size: 17px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+.content .cn a{
+    text-decoration: none;
+    font-style: 'Arial';
+    color: rgb(7, 0, 3);
+    transition: .3s ease;
+
+}
+.cn:hover{
+    background-color: rgba(200, 191, 243, 0.795);
+}
+
+.content span{
+    color: rgb(170, 153, 2);
+    font-size: 45px;
+}
+.form{
+    width: 240px;
+    height: 350px;
+    background:transparent;
+    border: 5px solid rgb(0, 0, 0);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 180px;
+    left: 900px;
+    border-radius: 12px;
+    padding: 28px;
+    
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: rgb(54, 39, 168);
+    background-color: rgb(13, 240, 240);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: solid rgb(230, 122, 21);
+    border-right: none;
+    border-left: none;
+    color: rgb(15, 1, 5);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+    
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgb(158, 168, 8);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+
+}
+.btnn:hover{
+    background: white;
+    color: rgb(252, 252, 252);
+}
+.btnn a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.form .link{
+    font-family: Helvetica;
+    font-size: 17px;
+    padding-top: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.form.link a{
+    text-decoration: none;
+    color: rgba(12, 9, 0, 0.87);
+
+}
+
+.liw{
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: rgb(25, 103, 103);
+}
